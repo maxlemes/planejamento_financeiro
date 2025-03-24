@@ -1,0 +1,95 @@
+ \documentclass[11pt,a4paper,addpoints]{exam}
+
+ \input{../preambulos/preamble}
+ \input{../preambulos/preamblePortugues}
+ \input{../preambulos/preambleExam}
+ \input{../preambulos/preambleTikz}
+
+ \usepackage{siunitx}
+ \sisetup{group-separator = {.}}
+
+ \printanswers
+ % \noprintanswers
+
+ % Sem pontuação individual
+ %\qformat{\textbf{Questão \thequestion}\quad \hfill}
+
+ % com pontuação individual
+ \qformat{\textbf{Questão \thequestion}\quad (\totalpoints{}\;\points{})\hfill}
+
+
+ %-----------------------------------------------------------------
+\begin{document}
+\pointformat{}
+%-----------------------------------------------------------------
+\begin{center}
+    \fbox{\fbox{\parbox{17cm}{
+                \centering
+                \begin{tabular}{cc}
+                    \begin{minipage}{.1\textwidth}
+                        \includegraphics[scale=0.055]{../figuras/ufgLogo.png}
+                    \end{minipage}
+
+                     &
+
+                    \begin{minipage}{.7\textwidth}
+                        \begin{center}
+                            \textbf{UNIVERSIDADE FEDERAL DE GOIÁS\\
+                                INSTITUTO DE MATEMÁTICA E ESTATÍSTICA}
+                        \end{center}
+                    \end{minipage}
+                \end{tabular}
+            }}}
+
+    \bigskip
+
+    \large \textbf{%4\textordmasculine \; 
+        IME0345 - GEOMETRIA ANÁLITICA - 2\textordfeminine AVALIAÇÃO - 18/12/2024}
+\end{center}
+
+\bigskip
+\bigskip
+
+\noindent
+{\large \textbf{
+        NOME:\,\hrulefill \, MATRÍCULA:\,\rule{3cm}{.1mm}
+    }}
+
+% % Prova 1  - 
+
+% \begin{questions}
+%   \question[2]
+%   \input{questoes/pontoMedio1}
+%   \question[3]
+%   \input{questoes/projecao1}
+%   \question[3]
+%   \input{questoes/elipse1}
+%   \question[2]
+%   \input{questoes/rotacao1}
+% \end{questions}
+
+% Prova 2  - 
+
+\begin{questions}
+    \question[2]
+    \input{questoes/revolucao1}
+    \question[2]
+    \input{questoes/plano2}
+    \question[3]
+    \input{questoes/quadrica4}
+    \question[3]
+    \input{questoes/quadrica3}
+\end{questions}
+
+\bigskip
+
+\vfill\hfill \textbf{BOA PROVA!}
+
+% Quadro de Notas
+% \begin{center}
+% \gradetable[h][questions]
+% \end{center}
+
+%-----------------------------------------------------------------
+\end{document}
+%-----------------------------------------------------------------

@@ -1,0 +1,50 @@
+\begin{tikzpicture}[xscale=0.5]
+
+    \coordinate (O) at (0,0);
+    \coordinate (i) at (9,0);
+    \coordinate (j) at (0,4);
+
+    % Título do gráfico
+    % \node[above=0.5cm] at (j) {Elipse}; % Título acima da letra y
+
+    % Define a área visível do gráfico
+    \path[draw=none] (-10,-2) rectangle (10,6.5); % Retângulo invisível
+
+    % Desenha os eixos
+    \draw[-latex] (-9,0) -- (i);
+    \draw[-latex] (0,-2) -- (j);
+
+    % Rótulo do eixo X
+    \node[right] at (i) {$x$};
+
+    % Rótulo do eixo Y 
+    \node[above] at (j) {$y$};
+
+    % Rótulo do ponto O
+    \node[anchor=south east] at (O) {$O$};
+
+    % Desenha a elipse
+    \draw[thick,color=black,domain=-8:8,smooth, samples=500]
+    plot (\x,{1 + sqrt(4-(\x)^2/16)});
+
+    \draw[thick,color=black,domain=-8:8,smooth, samples=500]
+    plot (\x,{1 - sqrt(4-(\x)^2/16)});
+
+    % Linha horizontal do eixo da elipse
+    \draw[dotted,color=magenta,domain=-8:7.8,smooth]
+    plot (\x,{1});
+
+    % Texto explicativo da equação
+    \node at (5,3.5) {$\frac{x^2}{64}+\frac{(y-1)^2}{4}=1$};
+
+    % Focos da elipse
+    % \filldraw[black] (7.74,1) circle (1pt); % Foco direito
+    % \filldraw[black] (-7.74,1) circle (1pt); % Foco esquerdo
+
+    % Marca os vertices da elipse
+    \filldraw[black] (8,1) circle (1pt); % Foco direito
+    \filldraw[black] (-8,1) circle (1pt); % Foco esquerdo
+    \filldraw[black] (0,3) circle (1pt); % Foco superior
+    \filldraw[black] (0,-1) circle (1pt); % Foco inferior
+
+\end{tikzpicture}

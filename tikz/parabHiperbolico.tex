@@ -1,0 +1,18 @@
+\begin{tikzpicture}
+    \begin{axis}[
+        view={30}{30}, % Ângulo de visão
+        axis lines=middle,
+        xlabel={$x$}, ylabel={$y$}, zlabel={$z$},
+        domain=-2:2,
+        y domain=-2:2,
+        samples=30,
+        colormap/cool,
+    ]
+        \addplot3[
+            surf,
+            shader=flat,
+            z buffer=sort
+        ]
+        {x^2 - y^2}; % Paraboloide hiperbólico
+    \end{axis}
+\end{tikzpicture}

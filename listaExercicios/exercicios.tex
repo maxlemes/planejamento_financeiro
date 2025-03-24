@@ -1,0 +1,63 @@
+  \documentclass[11pt,a4paper,addpoints]{exam}
+
+ \input{../preambulos/preamble}
+ \input{../preambulos/preamblePortugues}
+ \input{../preambulos/preambleExam}
+ \input{../preambulos/preambleTikz}
+
+\usepackage{siunitx}
+\sisetup{group-separator = {.}}
+
+\printanswers
+\noprintanswers
+
+\qformat{\textbf{Exercício \thequestion}\quad \hfill}
+
+%Resposta
+\renewcommand{\solutiontitle}{\noindent\textbf{Resposta:}\enspace}
+
+%-----------------------------------------------------------------
+\begin{document}
+\pointformat{}
+%-----------------------------------------------------------------
+
+\begin{center}
+  \fbox{\fbox{\parbox{16.5cm}{
+        \centering
+        \begin{tabular}{cc}
+          \begin{minipage}{.1\textwidth}
+            \includegraphics[scale=0.06]{../figuras/ufgLogo.png}
+          \end{minipage}
+
+           &
+
+          \begin{minipage}{.7\textwidth}
+            \begin{center}
+              \textbf{UNIVERSIDADE FEDERAL DE GOIÁS\\
+                INSTITUTO DE MATEMÁTICA E ESTATÍSTICA \\
+              }
+            \end{center}
+          \end{minipage}
+        \end{tabular}
+      }}}
+
+  \bigskip
+
+  \textbf{EXERCÍCIOS SOBRE DERIVADAS} %-------------------------
+\end{center}
+
+\begin{questions}
+  \input{assunto/limites}
+  % \input{assunto/continuidade}
+  % \input{assunto/derivadas1}
+  % \input{assunto/derivadas2}
+  % \input{assunto/aplicDerivadas}
+\end{questions}
+
+% \begin{center}
+% \gradetable[h][questions]
+% \end{center}
+
+%-----------------------------------------------------------------
+\end{document}
+%-----------------------------------------------------------------

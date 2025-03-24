@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "meu_projeto"
+version = "0.1.0"
+description = "Descrição do projeto"
+authors = ["Max Lemes <max@ufg.br>"]
+
+[project]
+name = "planejamento-aposentadoria"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Max Lemes",email = "maxvlemes@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas (>=2.2.3,<3.0.0)",
+    "streamlit (>=1.43.2,<2.0.0)",
+    "numpy (>=2.2.4,<3.0.0)",
+    "bs4 (>=0.0.2,<0.0.3)",
+    "plotly (>=6.0.1,<7.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+isort = "^6.0.1"
+black = "^25.1.0"
+

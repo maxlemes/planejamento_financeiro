@@ -1,0 +1,149 @@
+% \mode<presentation>
+\usetheme{metropolis}
+\setbeamercovered{transparent}
+
+
+\newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
+
+\usefonttheme[onlymath]{serif}
+\usefonttheme{structurebold} % fonte modo matematico
+
+
+%  Define as cores a serem usadas
+\definecolor{mLightBrown}{HTML}{990000} % alert block
+\definecolor{mLightGreen}{HTML}{EB811B} % example text
+
+
+
+% logo of my university
+\titlegraphic{\vspace{3.5cm}\hfill\includegraphics[height=2.3cm]{../figuras/ufglogo.png}}
+
+
+%Colocando um marca dagua
+\setbeamertemplate{background}{
+    \tikz[overlay,remember picture]
+    \node[opacity=.05] at (11,-5.5) {\includegraphics[width=10cm]{../figuras/marcadagua.png}};
+}
+
+
+% - Define a cor da página
+\setbeamercolor{background canvas}{bg=UFGblue!5}
+
+% Define a cor da letra
+\setbeamercolor{normal text}{fg=black}
+%\setbeamercolor{example text}{fg=UFGgreen}
+%\setbeamercolor{alerted text}{fg=UFGorange}
+
+
+% Definindo as cores do palette
+% Com cor no fundo do títulp
+%\setbeamercolor{palette primary}{bg= UFGblue!30,fg=UFGblue!90!black}
+%sem com no fundo do título
+\setbeamercolor{palette primary}{bg= ,fg=UFGblue!90!black}
+%\setbeamercolor{palette secondary}{bg=UFGblue,fg=white}
+%\setbeamercolor{palette tertiary}{bg=UFGlue,fg=white}
+%\setbeamercolor{palette quaternary}{bg=UFGblue,fg=white}l%
+
+
+% tirando a cor dos cabeçalhos dos blocks
+\setbeamercolor{block title}{bg= ,fg=UFGblue!90!black}
+\setbeamercolor{block title example}{bg=}
+\setbeamercolor{block title alerted}{bg=}
+
+
+% Outras cores
+% \setbeamercolor{structure}{fg=UFGblue} % itemize, enumerate, etc
+% \setbeamercolor{section in toc}{fg=UFGblue} % TOC sections
+% \setbeamercolor{title}{bg=UFGgrey}
+% \setbeamercolor{item}{fg=green}
+% \setbeamercolor{block body alerted}{bg=alerted text.fg!10}
+% \setbeamercolor{block body}{bg=UFGblue!20}
+% \setbeamercolor{block body example}{bg=UFGgreen!20}
+%\setbeamercolor{block body alerted}{bg=UFGblue!10}
+% \setbeamercolor{block title alerted}{bg=UFGred, fg=white}
+
+
+% Transparencia dos blocks
+%\addtobeamertemplate{block begin}{\pgfsetfillopacity{1}}{\pgfsetfillopacity{1}}
+%\addtobeamertemplate{block alerted begin}{\pgfsetfillopacity{1}}{\pgfsetfillopacity{1}}
+%\addtobeamertemplate{block example begin}{\pgfsetfillopacity{1}}{\pgfsetfillopacity{1}}
+
+
+% % Override palette coloring with secondary
+% \setbeamercolor{subsection in head/foot}{bg=UFGblue,fg=white}
+% \setbeamercolor{section in head/foot}{bg=UFGgreen,fg=white}
+% \setbeamertemplate{enumerate items}[default]
+% \setbeamercolor{enumerate item}{fg=UFGblue}
+
+
+% Desativando o cabeçalho
+%\setbeamertemplate{headline}{}
+
+% Colocando numero de paginas no slide
+\setbeamertemplate{footline}{}
+
+% Tela cheia
+\hypersetup{pdfpagemode=FullScreen}
+
+% justificando o texto nos blocks
+\addtobeamertemplate{block begin}{}{\justifying}  %new code
+\addtobeamertemplate{block example begin}{}{\justifying}  %new code
+\addtobeamertemplate{block alerted begin}{}{\justifying}  %new code
+
+% justificando o texto fora dos blocks
+\apptocmd{\frame}{}{\justifying}{}
+
+% Configurações da faixa nos frametitles
+\makeatletter
+\setlength{\metropolis@frametitle@padding}{1.3ex}%  <- largura da faixa
+\setbeamertemplate{frametitle}{%
+    \nointerlineskip%
+    \begin{beamercolorbox}[%
+            wd=\paperwidth,%
+            sep=3pt,% 
+            leftskip=\metropolis@frametitle@padding,%
+            rightskip=\metropolis@frametitle@padding,%
+        ]{frametitle}%
+        \metropolis@frametitlestrut@start%
+        \insertframetitle%
+        \nolinebreak%
+        \metropolis@frametitlestrut@end%
+    \end{beamercolorbox}
+}
+\makeatother
+
+\setbeamertemplate{itemize body end}{\vspace{2cm}}
+\setbeamertemplate{itemize items}[$bullet$]
+
+% Configuração dos frames
+% \setbeamersize{
+%     text margin left    = .06\paperwidth,
+%     text margin right   = .03\paperwidth,
+%     sidebar width left  = 0mm,
+%     sidebar width right = 10mm,
+%     description width   = 10mm,
+%     mini frame size     = 10mm,
+%     mini frame offset   = 10mm
+% }
+
+\makeatletter
+\setlength\beamer@paperwidth{16.00cm}
+\setlength\beamer@paperheight{10.00cm}
+\geometry{%
+    papersize={\beamer@paperwidth,\beamer@paperheight},
+    hmargin=1cm,% 
+    vmargin=0cm,%
+    head=0.5cm,% might be changed later 
+    headsep=0pt,%
+    foot=1.5cm% might be changed later 
+}
+\makeatother
+
+% Definindo a numeração das figuras e tabelas
+\counterwithout{figure}{section}
+\counterwithout{figure}{subsection}
+\counterwithout{table}{section}
+\counterwithout{table}{subsection}
+
+
+
