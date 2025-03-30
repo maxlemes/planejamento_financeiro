@@ -215,11 +215,24 @@ def calcular_tabela_inv(ganho_mensal, aporte, taxa_anual):
 def calcular_tabela_comparativa_renda(taxa_anual):
     anos = [5, 10, 15, 20, 25, 30]
     dados = {"Anos": anos}
-    for aporte in [0.08, 0.10, 0.12]:
-        renda_mensal = calcular_renda_passiva_mensal(aporte, taxa_anual, anos)[
-            "Renda Passiva Mensal"
-        ]
-        dados[f"Aporte {aporte * 100}%"] = renda_mensal.apply(lambda x: f"{x:.2%}")
+    for aporte in [0.1, 0.12, 0.15, 0.20]:
+        df_prev = calcular_tabela_prev(1, 12, taxa_anual)
+        df_inv = calcular_tabela_inv(1, 12, taxa_anual)
+
+        df_prev = df_prev[["Anos", "Renda Passiva Mensal"]].apply(converter_reais)
+        df_inv = df_inv[["Anos", "Renda Passiva Mensal"]].apply(converter_reais)
+
+        df_total = (
+            df_prev.iloc[:, 1:] + df_inv.iloc[:, 1:]
+        )  # Soma apenas da segunda coluna em diante
+        df_total.insert(
+            0, df_prev.columns[0], df_inv.iloc[:, 0]
+        )  # Mantém a primeira coluna original
+
+        df_total = df_total[df_total["Anos"].isin([5, 10, 15, 20, 25, 30])]
+
+        dados[f"Aporte {aporte * 100}%"] = df_total.apply(lambda x: f"{x:.2%}")
+
     df = pd.DataFrame(dados)
 
     return df
@@ -330,11 +343,12 @@ def main():
 
         st.write("Previdência")
         tabela = calcular_tabela_prev(ganho_mensal, 12, taxa_anual)
+        df_prev = tabela
 
-        df_prev = tabela[tabela["Anos"].isin([5, 10, 15, 20, 25, 30])]
+        tabela = tabela[tabela["Anos"].isin([5, 10, 15, 20, 25, 30])]
 
         # Remove o índice ao exibir a tabela
-        html = df_prev.to_html(index=False)
+        html = tabela.to_html(index=False)
         html = (
             f'<div style="font-size: 16px;">{html}</div>'  # Aumenta o tamanho da fonte
         )
@@ -352,11 +366,12 @@ def main():
 
         st.write("Investimentos")
         tabela = calcular_tabela_inv(ganho_mensal, aporte, taxa_anual)
+        df_inv = tabela
 
-        df_inv = tabela[tabela["Anos"].isin([5, 10, 15, 20, 25, 30])]
+        tabela = tabela[tabela["Anos"].isin([5, 10, 15, 20, 25, 30])]
 
         # Remove o índice ao exibir a tabela
-        html = df_inv.to_html(index=False)
+        html = tabela.to_html(index=False)
         html = (
             f'<div style="font-size: 16px;">{html}</div>'  # Aumenta o tamanho da fonte
         )
@@ -383,11 +398,13 @@ def main():
             0, df_prev.columns[0], df_inv.iloc[:, 0]
         )  # Mantém a primeira coluna original
 
-        for col in df_total.columns[1:]:
-            df_total[col] = df_total[col].apply(formatar_reais)
+        tabela = df_total[df_total["Anos"].isin([5, 10, 15, 20, 25, 30])]
+
+        for col in tabela.columns[1:]:
+            tabela[col] = tabela[col].apply(formatar_reais)
 
         # Remove o índice ao exibir a tabela
-        html = df_total.to_html(index=False)
+        html = tabela.to_html(index=False)
         html = (
             f'<div style="font-size: 16px;">{html}</div>'  # Aumenta o tamanho da fonte
         )
@@ -408,25 +425,18 @@ def main():
         fig = go.Figure(
             data=[
                 go.Bar(
-                    name="Valor Aportado",
-                    x=tabela["Anos"],
-                    y=[
-                        float(val[2:].replace(",", ""))
-                        for val in tabela["Valor Aportado"]
-                    ],
-                    hovertemplate="Ano: %{x}<br>Valor Aportado: R$ %{y:,.2f}<extra></extra>",  # Tag informativa
+                    name="Previdência",
+                    x=df_prev["Anos"],
+                    y=df_prev["Saldo Acumulado"],
+                    marker=dict(color="orange"),  # Define a cor da barra
+                    hovertemplate="Ano: %{x}<br>Previdência: R$ %{y:,.2f}<extra></extra>",
                 ),
                 go.Bar(
-                    name="Rendimento",
-                    x=tabela["Anos"],
-                    y=[
-                        float(val[2:].replace(",", ""))
-                        - float(val2[2:].replace(",", ""))
-                        for val, val2 in zip(
-                            tabela["Saldo Acumulado"], tabela["Valor Aportado"]
-                        )
-                    ],
-                    hovertemplate="Ano: %{x}<br>Rendimento: R$ %{y:,.2f}<extra></extra>",  # Tag informativa
+                    name="Investimentos",
+                    x=df_inv["Anos"],
+                    y=df_inv["Saldo Acumulado"],
+                    marker=dict(color="blue"),  # Define a cor da barra
+                    hovertemplate="Ano: %{x}<br>Investimentos: R$ %{y:,.2f}<extra></extra>",
                 ),
             ]
         )

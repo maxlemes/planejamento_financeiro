@@ -1,2 +1,2 @@
-\beamer@sectionintoc {1}{Lorem Ipsum}{2}{0}{1}
-\beamer@sectionintoc {2}{Tabela de Sensilidade}{4}{0}{2}
+\beamer@sectionintoc {1}{Juros}{2}{0}{1}
+\beamer@sectionintoc {2}{Ativos e Passivos}{4}{0}{2}
