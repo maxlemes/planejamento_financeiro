@@ -1,2 +1,0 @@
-\beamer@sectionintoc {1}{Juros}{2}{0}{1}
-\beamer@sectionintoc {2}{Ativos e Passivos}{4}{0}{2}

@@ -6,6 +6,27 @@ import seaborn as sns
 import streamlit as st
 from bs4 import BeautifulSoup
 
+# Configuração da página
+# st.set_page_config(layout="wide")  # Isso define a largura para ocupar a tela inteira
+
+# Definindo CSS para mudar a fonte e o tamanho
+st.markdown("""
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+        
+        body {
+            font-family: 'Roboto Mono\\', monospace;
+            font-size: 24px;  /* Tamanho de fonte para o corpo do texto */
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Roboto Mono', monospace;
+            font-size: 36px;  /* Tamanho maior para os títulos */
+        }
+        .st-bv {
+            font-size: 28px; /* Ajuste do tamanho para as caixas de texto ou outros elementos */
+        }
+    </style>
+""", unsafe_allow_html=True)
 
 def calcular_ir(salario_mensal, aporte):
     # Cálculo do renda mensal considerando o salário bruto
@@ -397,6 +418,40 @@ def criar_heatmap(dataframe, tipo):
 
 
 def main():
+    st.markdown("""
+        <style>
+            /* Carregar a fonte do Google Fonts */
+            @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+            
+            /* Aplicar a fonte globalmente em todo o corpo da página */
+            * {
+                font-family: 'Roboto Mono', monospace !important;
+            }
+            
+            /* Definir tamanho da fonte para o corpo do texto */
+            body {
+                font-size: 22px;  /* Ajuste o tamanho conforme necessário */
+            }
+
+            /* Ajuste do tamanho para títulos */
+            h1, h2, h3, h4, h5, h6 {
+                font-family: 'Roboto Mono', monospace;
+                font-size: 30px;  /* Tamanho maior para os títulos */
+            }
+
+            /* Ajustar as tabelas */
+            .stDataFrame {
+                font-family: 'Roboto Mono', monospace;
+                font-size: 24px; /* Tamanho da fonte para os dados da tabela */
+            }
+
+            /* Ajustes para caixa de texto ou elementos específicos */
+            .st-bv {
+                font-size: 26px; /* Ajuste o tamanho conforme necessário */
+            }
+        </style>
+    """, unsafe_allow_html=True)
+    
     # --- Definindo o Cabeçalho -----------------------------------------------------------------------
 
     st.title("Calculadora de Poupança e Renda")
