@@ -17,12 +17,13 @@ edicoes = [
     "2017",
     "2018",
     "2019",
+    "16aobmep",
     "17obmep",
     "18obmep",
     "19obmep",
 ]
 medalhas = ["Bronze", "Ouro", "Prata"]
-colunas = ["Classificação", "Nome", "Escola", "Tipo", "Municipio", "UF", "Medalha"]
+colunas = ["Classificacao", "Nome", "Escola", "Tipo", "Municipio", "UF", "Medalha"]
 
 todos_dfs = []
 
@@ -34,7 +35,7 @@ for edicao in edicoes:
             df_temp = tabela.iloc[:, :7].copy()
             df_temp.columns = colunas
             df_temp["Nivel"] = nivel
-            df_temp["Edição"] = edicao
+            df_temp["Ano"] = edicao
             df_temp["Medalha"] = medalha
             todos_dfs.append(df_temp)
 
