@@ -173,5 +173,23 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
+# Arquivos temporários do LaTeX
 ../.DS_Store
 .DS_Store
+
+# Arquivos temporários do LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.nav
+*.snm
+*.vrb
+
