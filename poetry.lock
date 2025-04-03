@@ -1465,6 +1465,7 @@ files = [
 [package.dependencies]
 attrs = ">=22.2.0"
 rpds-py = ">=0.7.0"
+typing-extensions = {version = ">=4.4.0", markers = "python_version < \"3.13\""}
 
 [[package]]
 name = "requests"
@@ -1841,5 +1842,5 @@ watchmedo = ["PyYAML (>=3.10)"]
 
 [metadata]
 lock-version = "2.1"
-python-versions = ">=3.13"
-content-hash = "de52dfd247510b7bb948f1914b2b0b2e8cd10313140208ddbca53c71c4c47ca4"
+python-versions = ">=3.12"
+content-hash = "fbcaadcf752d36c94293ba571ae710ccab97944eb78a8a3753a1e5e41b9aefc4"
