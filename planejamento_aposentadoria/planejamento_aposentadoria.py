@@ -7,7 +7,7 @@ import streamlit as st
 from bs4 import BeautifulSoup
 
 # Configuração da página
-# st.set_page_config(layout="wide")  # Isso define a largura para ocupar a tela inteira
+st.set_page_config(layout="wide")  # Isso define a largura para ocupar a tela inteira
 
 
 def calcular_ir(salario_mensal, aporte):
