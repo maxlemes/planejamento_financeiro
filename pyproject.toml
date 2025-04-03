@@ -6,7 +6,7 @@ authors = [
     {name = "Max Lemes"}
 ]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 dependencies = [
     "pandas>=2.2.3,<3.0.0",
     "streamlit>=1.43.2,<2.0.0",
