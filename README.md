@@ -24,8 +24,8 @@ Para executar a aplicação, você precisará do seguinte:
 
 1. Clone o repositório:
    ```bash
-   git clone <URL_DO_REPOSITORIO>
-   cd <DIRETORIO_DO_REPOSITORIO>
+   git clone git@github.com:maxlemes/planejamento_aposentadoria.git
+   cd git@github.com:maxlemes/planejamento_aposentadoria.git
    ```
 
 2. Crie um ambiente virtual e ative-o:
@@ -66,7 +66,7 @@ Este projeto é licenciado sob a MIT License. Consulte o arquivo `LICENSE` para 
 
 ## Contato
 
-Para qualquer dúvida ou sugestão, entre em contato pelo e-mail: [seu-email@example.com].
+Para qualquer dúvida ou sugestão, entre em contato pelo e-mail: [maxvlemes@gmail.com].
 
 ---
 
