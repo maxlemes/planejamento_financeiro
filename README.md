@@ -12,6 +12,7 @@ A Calculadora de Poupança e Renda é uma aplicação desenvolvida em Python que
 - Heatmaps que mostram a relação entre aporte percentual e rendimento passivo mensal.
 - Cálculo do usufruto em meses e anos com base no saldo acumulado e na renda mensal.
 - Interface amigável utilizando Streamlit, com design atrativo e responsivo.
+- Publicado no link https://planejamentoaposentadoria.streamlit.app
 
 ## Requisitos
 
