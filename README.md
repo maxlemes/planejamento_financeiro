@@ -22,9 +22,9 @@ A palestra aborda a importância do planejamento financeiro, especialmente para 
 
 ## Estrutura do Repositório
 
-* `main.pdf`: O arquivo principal com todos os slides da apresentação.
+* `/slides/main.pdf`: O arquivo principal com todos os slides da apresentação.
 * `figuras/`: Pasta que contém as imagens utilizadas nos slides.
-* `main.tex`: O arquivo-fonte em LaTeX para compilar a apresentação.
+* `/slides/main.tex`: O arquivo-fonte em LaTeX para compilar a apresentação.
 
 ## Livros Recomendados
 
