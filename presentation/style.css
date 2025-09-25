@@ -1,0 +1,98 @@
+/*-- scss:rules --*/
+/* Estilo para os blocos */
+.block {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 0.1em 1em;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+}
+.block h3 {
+  font-size: 1.1em; 
+  font-weight: bold; 
+  margin-top: 10px; 
+  border-bottom: none;
+}
+/* CLASSES DE CORES */
+/* Definição de Variáveis de Cores */
+$cor-verde: #28a745;
+$cor-azul: #007bff;
+$cor-vermelho: #dc3545;
+$cor-roxo: #6f42c1;
+$cor-laranja: #fd7e14;
+$cor-marrom: #8B4513;
+
+/* Estilo para os blocos */
+.block {
+  /* ... estilos do bloco ... */
+}
+
+/* 2. Importação de Fontes (Opcional, do Google Fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@700&display=swap');
+
+/* Classes de Cores usam as variáveis */
+.green { color: $cor-verde; }
+.blue { color: $cor-azul; }
+.red { color: $cor-vermelho; }
+.purple { color: $cor-roxo; }
+.orange { color: $cor-laranja; }
+.brown { color: $cor-marrom; }
+
+.h-center {
+  text-align: center;
+}
+
+/* Adicione ao seu style.css para marca d'água de imagem */
+.reveal::after {
+  content: "";
+  background-image: url('imagens/marcadagua.png'); /* <<-- Mude o caminho da imagem */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%; /* <<-- Mude o tamanho do logo */
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  opacity: 0.1; /* <<-- Opacidade/transparência da imagem */
+  z-index: 999;
+  pointer-events: none;
+}
+
+/* Adicione ao seu style.css, se ainda não tiver */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%; /* Garante que o flexbox ocupe toda a altura */
+}
+
+/* Remove bullets APENAS do Nível 1 */
+.no-bullets-level-1 > ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+/* Remove bullets APENAS do Nível 2 */
+.no-bullets-level-2 > ul > li > ul { /* Seleciona o UL que é filho direto de um LI que é filho direto de um UL... */
+  list-style-type: none;
+}
+
+/* Remove bullets APENAS do Nível 3 */
+.no-bullets-level-3 > ul > li > ul > li > ul {
+  list-style-type: none;
+}
+
+/* Novo estilo para a tabela com efeito de "acender" a linha */
+.highlight-row tbody tr {
+  opacity: 0.3; /* Todas as linhas começam "apagadas" */
+  transition: opacity 0.3s ease-in-out; /* Adiciona uma transição suave */
+}
+
+.highlight-row tbody tr.current-fragment {
+  opacity: 1; /* A linha ATUAL (em foco) fica totalmente visível */
+}

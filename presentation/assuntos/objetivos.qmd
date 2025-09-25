@@ -1,0 +1,24 @@
+
+# O Planejamento Financeiro {#objetivos}
+
+::: {.h-center}
+![](imagens/poder.png){width="60%"}
+:::
+
+---
+
+## Transforme Suas Possibilidades
+
+::: {.no-bullets-level-1}
+- #### [{{< fa money-check-dollar >}} Faça seu dinheiro render:]{.green}
+  - Aproveite ao máximo seu dinheiro
+  - Evite desperdícios
+
+- #### [{{< fa lock >}} Assuma o controle:]{.red}
+  - Alinhe seus gastos aos seus objetivos
+  - Esteja preparado para eventualidades
+
+- #### [{{< fa smile >}} Conquiste a Liberdade:]{.blue}
+  - Alcance a liberdade financeira
+  - Garanta a aposentadoria tranquila
+:::

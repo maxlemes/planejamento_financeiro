@@ -1,0 +1,18 @@
+
+# Encontre sua Motivação {#motivacao}
+
+::: {.h-center}
+![](imagens/motivacao.jpeg){width="70%"}
+:::
+
+---
+
+## O **dinheiro** é apenas uma ferramenta para construir seus objetivos:
+
+::: {.no-bullets-level-1}
+- {{< fa plane-departure >}} Fazer aquela **viagem dos sonhos**
+- {{< fa home >}} Comprar aquela **casa maravilhosa**
+- {{< fa graduation-cap >}} Garantir a **educação dos filhos**
+- {{< fa umbrella-beach >}} Construir uma **aposentadoria tranquila**
+- {{< fa key >}} Alcançar a **liberdade financeira**
+:::

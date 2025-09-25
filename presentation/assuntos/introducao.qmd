@@ -1,0 +1,182 @@
+
+
+# Por onde começar?
+
+## Autoconhecimento (O Mapa) {auto-animate="true"}
+
+::: {.callout-important icon="false" data-id="mapa"}
+### [{{< fa compass >}} Autoconhecimento (O Mapa)]{.blue}
+- O que é inegociável na sua vida? (Ex: segurança, conforto, educação)
+- O que significa "qualidade de vida" para você?
+- Quais são seus maiores objetivos de curto, médio e longo prazo?
+- Qual é a ordem de prioridade desses objetivos?
+:::
+
+---
+
+## Organização (O Raio-X) {auto-animate="true"}
+
+::: {.callout-note icon="false" data-id="raiox"}
+### [{{< fa clipboard-list >}} Organização (O Raio-X)]{.red}
+- Quais são suas fontes de renda? (Salário, extras, etc.)
+- Como você gasta seu dinheiro? Liste seus gastos fixos e variáveis.
+- Comece pelos grandes blocos: Moradia, Educação, Transporte, Alimentação, Saúde, Lazer e Outros.
+- Olhe sempre o custo anual: existem muitos gastos sazonais, como IPTU, IPVA, seguros, matrículas, etc.
+- **Balanço:** Você gasta mais ou menos do que ganha?
+- **Alinhamento:** Seus gastos atuais te aproximam ou te afastam dos seus objetivos?
+:::
+
+---
+
+## Encontre sua Motivação
+
+. . .
+
+::: {.callout-note icon="false"}
+### [{{< fa lightbulb >}} Encontre sua Motivação:]{.blue}
+- O **dinheiro**. Ele é apenas uma ferramenta para construir seus objetivos:
+  - Fazer aquela **viagem dos sonhos**.
+  - Comprar aquela **casa maravilhosa**.
+  - Garantir a **educação dos filhos**.
+  - Construir uma **aposentadoria tranquila**, onde você não dependa do governo ou de favores.
+  - Alcançar a **liberdade** de escolha, seja para abrir um negócio, trabalhar menos ou simplesmente mudar de ramo.
+:::
+
+---
+
+## Monte seu Plano de Ação (1/2)
+
+. . .
+
+::: {.callout-note icon="false"}
+### [{{< fa rocket >}} Monte seu Plano de Ação:]{.green}
+- **Escolha sua ferramenta:** pode ser um aplicativo de finanças, uma planilha detalhada ou um simples caderno. O importante é que funcione para você. Registre *tudo* o que entra e sai.
+- **Crie seu Orçamento:** defina quanto você pretende gastar com despesas essenciais (moradia, alimentação), com  desejos (lazer, hobbies) e quanto destinará para metas financeiras (quitar dívidas, investir). Ajuste conforme sua realidade.
+- **Automatize seus objetivos;** Configure transferências automáticas mensais da sua conta corrente para uma conta de investimentos ou poupança assim que seu salário cair. Isso torna a economia um hábito, não uma escolha.
+:::
+
+---
+
+## Monte seu Plano de Ação (2/2)
+
+::: {.callout-note icon="false"}
+### [{{< fa rocket >}} Monte seu Plano de Ação:]{.green}
+- **Estabeleça metas SMART:** Transforme sonhos em planos concretos. Exemplo: "Guardar R$ 1.000 por mês (Específico, Mensurável) para viajar para a Europa (Atingível, Relevante) daqui a  36 meses (Temporal)".
+- **Faça revisões mensais:** Uma vez por mês, analise seus gastos e verifique o progresso em direção às suas metas. Celebre as vitórias e ajuste a rota se necessário.
+:::
+
+---
+
+# Como fazer?
+
+## Evite os inimigos da tranquilidade financeira
+
+::: {.columns}
+
+:::: {.column width="50%"}
+::: {.callout-note icon="false"}
+#### [{{< fa exclamation-triangle >}} A Corda Bamba Financeira]{.purple}
+- **Hábito:** Não ter uma reserva de emergência: "se algo acontecer, na hora eu resolvo".
+- **Consequência:** Pequenos imprevistos (saúde, carro, casa) se transformam em dívidas caras, e a ansiedade financeira tira a sua liberdade de escolha.
+:::
+::::
+
+:::: {.column width="50%"}
+::: {.callout-note icon="false"}
+#### [{{< fa sign-out-alt >}} O Ciclo do "Zera a Conta"]{.orange}
+- **Hábito:** Gastar 100% da sua renda todo mês.
+- **Consequência:** Viver sem nenhuma margem para erros ou oportunidades. Qualquer imprevisto se torna uma crise e o futuro nunca chega.
+:::
+::::
+
+:::
+
+---
+
+## Evite os inimigos da tranquilidade financeira
+
+::: {.columns}
+
+:::: {.column width="50%"}
+::: {.callout-note icon="false"}
+#### [{{< fa calendar-times >}} A Prisão das Prestações]{.red}
+- **Hábito:** Acumular parcelamentos e financiamentos em excesso.
+- **Consequência:** trabalhar para pagar o passado em vez de construir o futuro. perdendo a liberdade de escolha.
+:::
+::::
+
+:::: {.column width="50%"}
+::: {.callout-note icon="false"}
+#### [{{< fa credit-card >}} O Impulso no Crédito]{.brown}
+- **Hábito:** Usar o crédito para comprar bens de consumo.
+- **Consequência:** Você paga mais caro por um prazer temporário que perde valor rapidamente, sacrificando objetivos maiores.
+:::
+::::
+
+:::
+
+---
+
+# Seus Números em Ação!
+
+## Como sua família gasta o dinheiro?
+
+::: {.h-center}
+![](imagens/sankeymatic.svg){width="100%"} 
+:::
+
+---
+
+
+## {#pesquisa-dividas background-image="imagens/economia.webp" background-size="cover" background-color="rgba(0,0,0,0.5)"}
+
+::: {.content-center}
+::: {.columns .v-center .h-center}
+![](imagens/dividas78.png){width="100%"} 
+:::
+:::
+
+
+---
+
+# Controle de Dívidas
+
+## Visão Geral do seu Endividamento
+::: {style="font-size: 0.6em;"}
+
+
+| Item | Valor Original | Parcela | Valor Pago | Saldo Devedor | Taxa de Juros (a.m.) |
+| :--- | :---: | :---: | :---: | :---: | :---: | 
+| Casa | R$ 250.000 | R$ 2.725 |  R$ 99.665 | **R$ 225.157** | 0,9% | 
+| Carro | R$ 80.000 | R$ 2.248 | R$ 53.964 | **R$ 58.342** | 1,9% |
+| Geladeira | R$ 3.500 | R$ 145| R$ 1.450 | **R$ 2.050** | 0% |
+| Smartphone | R$ 3.800 | R$ 226 | R$ 1.360 | **R$ 3.096** | 3,1% |
+
+:::
+
+::: footer
+*Valores e taxas de juros são exemplos fictícios para ilustração.*
+:::
+
+
+
+---
+## A Fronteira Eficiente
+
+A fronteira eficiente é o traço da curva em espaço $risco \times retorno$ dada por:
+
+$$
+\sigma(r):=\sqrt{x(r)^{\top}Vx(r)}
+$$
+
+onde o vetor $x(r)$ é a alocação associada ao portfólio ótimo $P_{x(r)}$ com retorno fixado $r$, isto é, $x(r)$ é solução do seguinte *problema de otimização parametrizado*:
+
+$$
+\begin{equations}
+\begin{alignat}{2}
+    \min_{x} \qquad  & \frac{1}{2}x^{\top}Vx    \\
+    \text{tal que } \quad & {M}^{\top}x= {r},   \\
+                      & e^{\top}x=1
+\end{alignat}
+\end{equations}
+$$

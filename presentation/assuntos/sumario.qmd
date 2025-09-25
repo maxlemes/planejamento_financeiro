@@ -1,0 +1,12 @@
+## Sumário  {#sumario}
+
+::: {.nonincremental}
+- [{{< fa coins >}} O Planejamento Financeiro](#objetivos)
+- [{{< fa play >}} Por onde começar?](#comeco)
+- [{{< fa  rocket >}} Encontre sua Motivação](#motivacao)
+- [{{< fa  clipboard-list >}} Monte seu Plano de Ação](#maonamassa)
+- [{{< fa  clipboard-list >}} Faça um diagnóstico](#diagnostico)
+- [{{< fa credit-card >}} Como lidar com dívidas?](#dividas)
+:::
+
+---

@@ -1,0 +1,42 @@
+
+# Monte seu Plano de Ação {#maonamassa}
+
+::: {.h-center}
+![](imagens/organize4.webp){width="70%"}
+:::
+
+---
+
+## Colocando a Mão na Massa
+
+::: {.no-bullets-level-2}
+- **Escolha uma ferramenta** que funcione para você:
+  - {{< fa mobile-alt >}} Aplicativo de finanças 
+  - {{< fa table >}} Uma planilha detalhada
+  - {{< fa book-open >}} Um simples caderno
+:::
+
+---
+
+## Colocando a Mão na Massa
+
+::: {.no-bullets-level-2}
+- **Crie seu Orçamento,** defina quanto você pretende gastar:
+  - {{< fa cart-shopping >}} **Despesas essenciais:** 
+    - Moradia, alimentação, transporte, etc.
+  - {{< fa basket-shopping >}} **Despesas com Estilo de Vida:** 
+    - Vestuário, lazer, hobbies, etc.
+  - {{< fa money-check-dollar >}} **Metas Financeiras:**
+    - Quitar dívidas, investir, etc.
+:::
+
+---
+
+## Colocando a Mão na Massa
+
+::: {.no-bullets-level-2}
+- **Estabeleça metas concretas:** 
+  - {{< fa piggy-bank >}} Meta: guardar R$ 1.000 por mês
+  - {{< fa globe-europe >}} Objetivo: viajar para a Europa 
+  - {{< fa calendar-alt >}} Prazo: 36 meses.
+:::

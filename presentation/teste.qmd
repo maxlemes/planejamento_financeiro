@@ -1,0 +1,82 @@
+---
+title: "Apresentação com Hub Central"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+---
+
+## Sumário Principal {#sumario}
+
+Este é o nosso slide central. A partir daqui, podemos navegar para qualquer seção e depois retornar.
+
+::: {.columns}
+
+:::: {.column width="50%"}
+### Tópicos Essenciais
+
+- [{{< fa lightbulb >}} Assunto A: O Problema](#assunto-a)
+- [{{< fa rocket >}} Assunto B: A Solução](#assunto-b)
+::::
+
+:::: {.column width="50%"}
+### Detalhes Adicionais
+
+- [{{< fa chart-line >}} Assunto C: Análise de Dados](#assunto-c)
+- [{{< fa book >}} Conclusão](#conclusao)
+::::
+
+:::
+
+---
+
+## {{< fa lightbulb >}} Assunto A: O Problema {#assunto-a}
+
+Este é o primeiro slide da Seção A.
+
+Aqui nós detalhamos o problema principal que estamos abordando.
+
+---
+
+### Detalhes do Problema
+
+Este é o segundo slide da Seção A.
+
+. . .
+
+[<i class="fa-solid fa-arrow-left"></i> Voltar ao Sumário](#sumario)
+
+---
+
+## {{< fa rocket >}} Assunto B: A Solução {#assunto-b}
+
+Este é o slide de início da Seção B.
+
+Aqui apresentamos a solução proposta.
+
+. . .
+
+[<i class="fa-solid fa-arrow-left"></i> Voltar ao Sumário](#sumario)
+
+---
+
+## {{< fa chart-line >}} Assunto C: Análise de Dados {#assunto-c}
+
+Este é o slide de início da Seção C.
+
+Apresentamos aqui os gráficos e dados que suportam nossa solução.
+
+. . .
+
+[<i class="fa-solid fa-arrow-left"></i> Voltar ao Sumário](#sumario)
+
+
+---
+
+## {{< fa book >}} Conclusão {#conclusao}
+
+Este é o slide final da apresentação.
+
+. . .
+
+[<i class="fa-solid fa-arrow-left"></i> Voltar ao Sumário](#sumario)

@@ -1,0 +1,88 @@
+<svg height="600" width="1000" xmlns="http://www.w3.org/2000/svg">
+<title>Your Diagram Title</title>
+<!-- Generated with SankeyMATIC: 22/09/2025, 09:46:36 -->
+<g transform="translate(157.09973,18)">
+<g id="sankey_flows">
+<path id="flow0" d="M20 201.17809C153.69202 201.17809 204.62231 211.87341 338.31434 211.87341" fill="none" stroke-width="278.63281" stroke="#bab0ab" opacity="0.45"><title>Salários → Renda Total: 12,500</title></path>
+<path id="flow3" d="M358.31434 122.71091C492.00636 122.71091 542.93665 50.15391 676.62867 50.15391" fill="none" stroke-width="100.30781" stroke="#d74" opacity="0.45"><title>Renda Total → Moradia: 4,500</title></path>
+<path id="flow4" d="M358.31434 210.75888C492.00636 210.75888 542.93665 172.42687 676.62867 172.42687" fill="none" stroke-width="75.78812" stroke="#76b7b2" opacity="0.45"><title>Renda Total → Transporte: 3,400</title></path>
+<path id="flow5" d="M358.31434 279.85981C492.00636 279.85981 542.93665 275.75281 676.62867 275.75281" fill="none" stroke-width="62.41375" stroke="#59a14f" opacity="0.45"><title>Renda Total → Alimentação: 2,800</title></path>
+<path id="flow1" d="M20 397.01013C153.69202 397.01013 204.62231 373.48044 338.31434 373.48044" fill="none" stroke-width="44.58125" stroke="#f28e2c" opacity="0.45"><title>Investimentos → Renda Total: 2,000</title></path>
+<path id="flow8" d="M358.31434 375.7095C492.00636 375.7095 542.93665 474.2775 676.62867 474.2775" fill="none" stroke-width="35.665" stroke="#ff9da7" opacity="0.45"><title>Renda Total → Lazer: 1,600</title></path>
+<path id="flow9" d="M358.31434 411.3745C492.00636 411.3745 542.93665 544.1675 676.62867 544.1675" fill="none" stroke-width="35.665" stroke="#197" opacity="0.45"><title>Renda Total → Poupança: 1,600</title></path>
+<path id="flow2" d="M20 470.24372C153.69202 470.24372 204.62231 412.48903 338.31434 412.48903" fill="none" stroke-width="33.43594" stroke="#e15759" opacity="0.45"><title>Outros → Renda Total: 1,500</title></path>
+<path id="flow6" d="M358.31434 323.10363C492.00636 323.10363 542.93665 353.22162 676.62867 353.22162" fill="none" stroke-width="24.07387" stroke="#edc949" opacity="0.45"><title>Renda Total → Educação: 1,080</title></path>
+<path id="flow7" d="M358.31434 346.50878C492.00636 346.50878 542.93665 410.85178 676.62867 410.85178" fill="none" stroke-width="22.73644" stroke="#af7aa1" opacity="0.45"><title>Renda Total → Saúde: 1,020</title></path>
+</g>
+<g id="sankey_nodes">
+<g class="node">
+<rect id="r0" class="for_r0" x="0" y="61.86169" height="278.63281" width="20" fill="#bab0ab" fill-opacity="1"><title>Salários:
+12,500</title></rect>
+</g>
+<g class="node">
+<rect id="r1" class="for_r1" x="338.31434" y="72.557" height="356.65" width="20" fill="#4e79a7" fill-opacity="1"><title>Renda Total:
+16,000</title></rect>
+</g>
+<g class="node">
+<rect id="r2" class="for_r2" x="0" y="374.7195" height="44.58125" width="20" fill="#f28e2c" fill-opacity="1"><title>Investimentos:
+2,000</title></rect>
+</g>
+<g class="node">
+<rect id="r3" class="for_r3" x="0" y="453.52575" height="33.43594" width="20" fill="#e15759" fill-opacity="1"><title>Outros:
+1,500</title></rect>
+</g>
+<g class="node">
+<rect id="r4" class="for_r4" x="676.62867" y="0" height="100.30781" width="20" fill="#d74" fill-opacity="1"><title>Moradia:
+4,500</title></rect>
+</g>
+<g class="node">
+<rect id="r5" class="for_r5" x="676.62867" y="134.53281" height="75.78812" width="20" fill="#76b7b2" fill-opacity="1"><title>Transporte:
+3,400</title></rect>
+</g>
+<g class="node">
+<rect id="r6" class="for_r6" x="676.62867" y="244.54594" height="62.41375" width="20" fill="#59a14f" fill-opacity="1"><title>Alimentação:
+2,800</title></rect>
+</g>
+<g class="node">
+<rect id="r7" class="for_r7" x="676.62867" y="341.18469" height="24.07387" width="20" fill="#edc949" fill-opacity="1"><title>Educação:
+1,080</title></rect>
+</g>
+<g class="node">
+<rect id="r8" class="for_r8" x="676.62867" y="399.48356" height="22.73644" width="20" fill="#af7aa1" fill-opacity="1"><title>Saúde:
+1,020</title></rect>
+</g>
+<g class="node">
+<rect id="r9" class="for_r9" x="676.62867" y="456.445" height="35.665" width="20" fill="#ff9da7" fill-opacity="1"><title>Lazer:
+1,600</title></rect>
+</g>
+<g class="node">
+<rect id="r10" class="for_r10" x="676.62867" y="526.335" height="35.665" width="20" fill="#197" fill-opacity="1"><title>Poupança:
+1,600</title></rect>
+</g>
+</g>
+<g id="sankey_labels" font-family="sans-serif" font-size="25px" fill="#000000">
+<text text-anchor="middle" x="342.90027" y="577" font-size="12.5px" font-weight="400" fill="#336781">Made at SankeyMATIC.com</text>
+<rect id="label0_bg" class="for_r0" x="-117.67786" y="165.36155" width="115.12641" height="70.61308" rx="6.25" fill="#fff" fill-opacity="0.8" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label0" class="for_r0" text-anchor="end" x="-9.84129" y="201.17809" font-weight="400" font-size="27.66355px" dy="-6.91654">Salários<tspan x="-9.84129" dy="31.81308" font-weight="400" font-size="27.66355px">12,500</tspan></text>
+<rect id="label1_bg" class="for_r1" x="261.23542" y="212.30201" width="174.78266" height="75.29998" rx="6.25" fill="#fff" fill-opacity="0.8" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label1" class="for_r1" text-anchor="middle" x="348.31434" y="250.882" font-weight="400" font-size="30px" dy="-7.68">Renda Total<tspan x="348.31434" dy="34.5" font-weight="400" font-size="30px">16,000</tspan></text>
+<rect id="label2_bg" class="for_r2" x="-145.09973" y="368.90396" width="142.54828" height="54.55235" rx="6.25" fill="#fff" fill-opacity="0.8" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label2" class="for_r2" text-anchor="end" x="-9.84129" y="397.01013" font-weight="400" font-size="20.65421px" dy="-5.20617">Investimentos<tspan x="-9.84129" dy="23.75234" font-weight="400" font-size="20.65421px">2,000</tspan></text>
+<rect id="label3_bg" class="for_r3" x="-78.72473" y="443.03945" width="76.17328" height="53.1685" rx="6.25" fill="#fff" fill-opacity="0.8" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label3" class="for_r3" text-anchor="end" x="-9.84129" y="470.24372" font-weight="400" font-size="20.32043px" dy="-5.30425">Outros<tspan x="-9.84129" dy="23.36849" font-weight="400" font-size="20.32043px">1,500</tspan></text>
+<rect id="label4_bg" class="for_r4" x="699.18013" y="20.66813" width="96.40583" height="58.47156" rx="6.25" fill="#fff" fill-opacity="0.8" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label4" class="for_r4" text-anchor="start" x="706.46996" y="50.15391" font-weight="400" font-size="22.3231px" dy="-5.58578">Moradia<tspan x="706.46996" dy="25.67156" font-weight="400" font-size="22.3231px">4,500</tspan></text>
+<rect id="label5_bg" class="for_r5" x="699.18013" y="143.36332" width="118.75141" height="57.6271" rx="6.25" fill="#fff" fill-opacity="0.8" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label5" class="for_r5" text-anchor="start" x="706.46996" y="172.42687" font-weight="400" font-size="21.58879px" dy="-5.16354">Transporte<tspan x="706.46996" dy="24.8271" font-weight="400" font-size="21.58879px">3,400</tspan></text>
+<rect id="label6_bg" class="for_r6" x="699.18013" y="248.12957" width="131.72016" height="55.16649" rx="6.25" fill="#fff" fill-opacity="0.8" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label6" class="for_r6" text-anchor="start" x="706.46996" y="275.75281" font-weight="400" font-size="21.18825px" dy="-4.72324">Alimentação<tspan x="706.46996" dy="24.36649" font-weight="400" font-size="21.18825px">2,800</tspan></text>
+<rect id="label7_bg" class="for_r7" x="699.18013" y="326.17858" width="104.31391" height="52.84605" rx="6.25" fill="#fff" fill-opacity="0.8" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label7" class="for_r7" text-anchor="start" x="706.46996" y="353.22162" font-weight="400" font-size="20.04005px" dy="-5.14303">Educação<tspan x="706.46996" dy="23.04606" font-weight="400" font-size="20.04005px">1,080</tspan></text>
+<rect id="label8_bg" class="for_r8" x="699.18013" y="383.83178" width="73.04828" height="52.8" rx="6.25" fill="#fff" fill-opacity="0.8" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label8" class="for_r8" text-anchor="start" x="706.46996" y="410.85178" font-weight="400" font-size="20px" dy="-5.12">Saúde<tspan x="706.46996" dy="23" font-weight="400" font-size="20px">1,020</tspan></text>
+<rect id="label9_bg" class="for_r9" x="699.18013" y="447.03488" width="66.38684" height="53.24525" rx="6.25" fill="#fff" fill-opacity="0.8" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label9" class="for_r9" text-anchor="start" x="706.46996" y="474.2775" font-weight="400" font-size="20.38718px" dy="-5.34263">Lazer<tspan x="706.46996" dy="23.44526" font-weight="400" font-size="20.38718px">1,600</tspan></text>
+<rect id="label10_bg" class="for_r10" x="699.18013" y="516.92483" width="107.64002" height="53.24525" rx="6.25" fill="#fff" fill-opacity="0.8" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label10" class="for_r10" text-anchor="start" x="706.46996" y="544.1675" font-weight="400" font-size="20.38718px" dy="-5.34263">Poupança<tspan x="706.46996" dy="23.44526" font-weight="400" font-size="20.38718px">1,600</tspan></text>
+</g>
+</g></svg>

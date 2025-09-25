@@ -1,0 +1,59 @@
+
+
+# Por onde começar? {#comeco}
+
+::: {.h-center}
+![](imagens/autoconhecimento.png){width="70%"}
+:::
+
+---
+
+## Autoconhecimento 
+
+::: {.no-bullets-level-1 .no-bullets-level-2}
+- O que é **inegociável** na sua vida? 
+  - {{< fa shield-alt >}}  **Segurança**
+  - {{< fa couch >}} **Conforto**
+  - {{< fa graduation-cap >}} **Educação dos filhos**
+
+
+- O que significa **qualidade de vida** para você?
+  - {{< fa home >}}  Morar bem
+  - {{< fa plane-departure >}} Viajar
+  - {{< fa child-reaching >}} Passar mais tempo com os filhos
+
+:::
+
+---
+
+## Autoconhecimento {auto-animate="true" .nonincremental}
+
+::: {.no-bullets-level-1 .no-bullets-level-3}
+- Quais são seus **objetivos** de curto, médio e longo prazo?
+
+  - **Curto prazo:** 
+    - {{< fa suitcase-rolling >}} Fazer uma viagem
+    - {{< fa mobile-alt >}} Comprar um Iphone 
+    - {{< fa hand-holding-usd >}} Quitar uma dívida
+
+  - **Médio prazo:** 
+    - {{< fa car >}} Trocar de carro 
+    - {{< fa hammer >}} Reformar a casa
+    - {{< fa globe-americas >}} Conhecer o mundo
+:::
+
+---
+
+## Autoconhecimento {auto-animate="true"}
+
+::: {.no-bullets-level-1 .no-bullets-level-3}
+- Quais são seus **objetivos** de curto, médio e longo prazo?
+
+  - **Longo prazo:** 
+    - {{< fa key >}} Quitar a casa 
+    - {{< fa city >}} Comprar um segundo imóvel
+    - {{< fa chart-line >}} Ter outra fonte de renda 
+
+- [**Qual é a ordem de prioridade desses objetivos?**]{.orange}
+
+:::

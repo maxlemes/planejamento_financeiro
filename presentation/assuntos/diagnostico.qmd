@@ -1,0 +1,41 @@
+# Faça um diagnóstico das suas finanças {#diagnostico}
+
+::: {.h-center}
+![](imagens/diagnostico.jpeg){width="55%"}
+:::
+
+---
+
+## Organize {auto-animate="true"}
+
+::: {.no-bullets-level-1}
+- Quais são suas fontes de renda? 
+  - Salário, investimento, extras, etc.
+- Como você gasta seu dinheiro? 
+  - Gastos fixos e Variáveis.
+- Comece pelos grandes blocos: 
+  - Moradia, Educação, Transporte, Alimentação, etc..
+- Olhe sempre o custo anual: 
+  - existem muitos gastos sazonais, como IPTU, IPVA, seguros, matrículas, etc.
+:::
+---
+
+## Como sua família gasta o dinheiro?
+
+::: {.h-center}
+![](imagens/sankeymatic.svg){width="100%"} 
+:::
+
+---
+
+## Analise
+
+::: {.no-bullets-level-1}
+- **Dívidas:** Qual o montante das suas dívidas? 
+   - Quanto elas impactam seu custo mensal?
+- **Balanço:** Você gasta mais ou menos do que ganha?
+  - Quanto você consegue poupar por mês?
+  - Quanto falta no final do mês?
+- **Alinhamento:** Seus gastos atuais te aproximam ou te afastam dos seus objetivos?
+  - Os valores gastos estão próximos dos valores planejados?
+:::
