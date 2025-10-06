@@ -1,18 +1,5 @@
 ## Sumário  {#sumario}
 
-<!-- ::: {.nonincremental style="font-size: 0.8em;"}
-- [{{< fa coins >}} O Planejamento Financeiro](#fundamentos)
-- [{{< fa play >}} Por onde começar?](#comeco)
-- [{{< fa rocket >}} Encontre sua Motivação](#motivacao)
-- [{{< fa clipboard-list >}} Monte seu Plano de Ação](#maonamassa)
-- [{{< fa magnifying-glass-dollar >}} Faça um diagnóstico](#diagnostico)
-- [{{< fa credit-card >}} Como lidar com dívidas?](#dividas)
-- [{{< fa piggy-bank >}} Estratégias para poupar dinheiro.](#poupar)
-- [{{< fa kit-medical >}} Tenha uma reserva para imprevistos.](#reserva)
-- [{{< fa chart-line >}} Hora de investir.](#investimento)
-- [{{< fa people-roof >}} Previdência.](#previdencia)
-::: -->
-
 ::: {.nonincremental style="font-size: 0.8em;"}
 - [{{< fa coins >}} Fundamentos do Planejamento Financeiro](#fundamentos)
 - [{{< fa handshake >}} Educação Financeira e Comportamento](#educacao)  
