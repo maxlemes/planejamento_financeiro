@@ -193,4 +193,4 @@ cython_debug/
 *.snm
 *.vrb
 
-_extensions/
+presentation/_extensions/
