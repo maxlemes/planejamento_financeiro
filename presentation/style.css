@@ -45,7 +45,7 @@ $cor-marrom: #8B4513;
 /* Adicione ao seu style.css para marca d'água de imagem */
 .reveal::after {
   content: "";
-  background-image: url('imagens/marcadagua.png'); /* <<-- Mude o caminho da imagem */
+  /* background-image: url('imagens/marcadagua.png'); <<-- Mude o caminho da imagem */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%; /* <<-- Mude o tamanho do logo */
