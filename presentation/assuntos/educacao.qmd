@@ -1,6 +1,12 @@
 
 # Os inimigos da tranquilidade financeira {#educacao}
 
+::: {.h-center}
+![](imagens/maus_habitos.jpeg){width="60%"}
+:::
+
+---
+
 ## Maus hábitos financeiros
 
 #### [{{< fa sign-out-alt >}} O Hábito do Saldo Zero]{.orange}
