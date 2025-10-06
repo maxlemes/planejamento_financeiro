@@ -1,0 +1,143 @@
+# Métodos Eficazes para Poupar Dinheiro. {#poupar}
+
+::: {.h-center}
+![](imagens/poupanca.jpg){width="60%"}
+:::
+
+---
+
+## O Método do Orçamento Diário
+
+<br>
+
+### [Passo 1: Calcule seu Limite de Gasto Diário]{.blue}
+
+::: {.no-bullets-level-1 style="font-size: 0.8em;"}
+
+- No dia em que receber seu salário:
+
+- #### 1. Anote seu Salário Líquido:
+    * *Exemplo:* `R$ 6.800,00`
+
+- #### 2. Subtraia as Despesas Fixas:
+    * *Exemplo:* `R$ 4.400,00`
+
+- #### 3. Calcule o Valor Disponível para Gastos Variáveis:
+    * *Exemplo:* `R$ 6.800,00 - R$ 4.400,00 = R$ 2.400,00`
+
+- #### 4. Divida por 30 para Encontrar seu Limite Diário:
+    * *Exemplo:* `R$ 2.400,00 / 30 = R$ 80,00`
+
+
+- Seu **limite máximo** de gasto é de [**R$ 80,00 por dia**]{.green}.
+:::
+
+---
+
+### [Passo 2: A Análise Noturna]{.blue}
+
+<br>
+
+::: {.no-bullets-level-1 style="font-size: 0.8em;"}
+- Todo dia, antes de dormir, analise seus gastos.
+
+<br>
+
+- #### [Cenário A: Você gastou ABAIXO do limite]{.green}
+
+  * *Exemplo:* Se você gastou R$ 50,00, você tem uma **sobra de R$ 30,00**.
+
+  * **Ação:** [**Transfira imediatamente essa sobra**]{.orange} para sua poupança.
+
+<br>
+
+- #### [Cenário B: Você gastou ACIMA do limite]{.red}
+
+  * *Exemplo:* Se você gastou R$ 100,00, você teve um **excesso de R$ 20,00**.
+
+  * **Ação:** Ajuste o limite do dia seguinte para compensar.
+      * No dia seguinte, seu poder de compra será de **R$ 60,00**.
+:::
+
+---
+
+### [Passo 3: O Impulso Mensal]{.blue}
+
+<br>
+
+::: {.no-bullets-level-1 style="font-size: 0.8em;"}
+- No final do mês, ou no primeiro dia do mês seguinte, execute o passo final.
+
+- #### 1.  Analise o Saldo Acumulado: 
+  - Verifique o valor total que você conseguiu juntar na sua conta de poupança com as sobras diárias.
+    * *Exemplo*: 15 dias com sobra de `R$30,00 = R$ 450,00`; 5 dias com sobra de `R$50,00 = R$ 250,00`. Total = `R$ 700,00`.
+
+- #### 2. Ponha o Dinheiro para Trabalhar:
+  - Transfira o valor total acumulado para um investimento alinhado com seus objetivos.
+
+- **Resultado:** Você transforma pequenas economias diárias em um investimento.
+:::
+
+---
+
+### Dicas para o Sucesso do Método
+
+<br>
+
+::: {.no-bullets-level-1 style="font-size: 0.8em;"}
+
+* **O Objetivo é Sobrar:** Lembre-se que o sucesso do método é **maximizar a sobra diária para investir**.
+* **Flexibilidade:** É natural gastar mais em alguns dias. O importante é que a média se equilibre, gastou mais em um dia, compense no dia seguinte.
+
+* **Disciplina > Perfeição:** O poder do método está na **consistência** dos hábitos, não na perfeição diária.
+:::
+
+---
+
+## Controle Semanal
+
+<br>
+
+Se você achar mais prático, faça o controle semanal.
+
+::: {.no-bullets-level-1 style="font-size: 0.8em;"}
+
+- 1.  **Calcule seu Orçamento Variável:** 
+    * *Exemplo:* `R$ 6.800,00 - R$ 4.400,00 = R$ 2.400,00`
+
+- 2.  **Defina seu Limite Semanal:** 
+        * **Limite Diário:** `R$ 2.400,00 / 30 dias = R$ 80,00`.
+        * **Limite Semanal:** `R$ 80,00 * 7 dias =` **`R$ 560,00`**
+
+<br>
+
+- Seu **limite máximo** de gasto é de [**R$ 560,00 por semana**]{.green}.
+:::
+
+---
+
+### Decida quanto poupar
+
+::: {.no-bullets-level-1 style="font-size: 0.8em;"}
+
+- #### 1. Anote seu Salário Líquido:
+    * *Exemplo:* `R$ 6.800,00`
+
+- #### 2. Subtraia as Despesas Fixas:
+    * *Exemplo:* `R$ 4.400,00`
+
+- #### 3. Separe quanto quer poupar:
+    * *Exemplo:* `R$ 750,00`
+
+- #### 4. Calcule o Valor Disponível para Gastos Variáveis:
+    * *Exemplo:* `R$ 6.800,00-R$ 4.400,00-R$ 750,00 = R$ 1.650,00`
+
+- #### 5. Encontre seu Limite Diário:
+    * *Exemplo:* `R$ 1650,00/30 = R$ 55,00`
+
+- #### 6. Encontre seu Limite Semanal:
+    * *Exemplo:* `R$ 55,00*7 = R$ 385,00`
+
+
+- Seu **limite máximo** de gasto é de [**R$ 55,00 por dia**]{.green} ou [**R$ 385,00 por semana**]{.green} 
+:::

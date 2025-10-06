@@ -40,23 +40,31 @@
 | Casa (360)| R$ 250.000 | R$ 2.725 (36ª) |  R$ 99.665 | **R$ 225.000** | 0,9% a.m.| 
 | Carro (60) | R$ 80.000 | R$ 2.248 (24ª) | R$ 53.964 | **R$ 58.342** | 1,9% a.m.|
 | Geladeira (24) | R$ 3.600 | R$ 150 (10ª) | R$ 1.500 | **R$ 2.100** | 0,0% a.m.|
-| Smartphone (24) | R$ 3.800 | R$ 226 (6ª) | R$ 1.360 | **R$ 3.096** | 3,1% a.m.|
+| Celular (24) | R$ 3.800 | R$ 226 (6ª) | R$ 1.360 | **R$ 3.096** | 3,1% a.m.|
 :::
 
 ---
 
 ## Composição das parcelas
-::: {style="font-size: 0.65em;"}
 
-| Item | Parcela | Amortização | Juros | 
+::: {.fragment style="font-size: 0.65em;"}
+
+| Item | Parcela | Amortização | Despesas Financeiras | 
 | :--- | ---: | ---: | ---: | 
 | Casa (1ª) | R$ 2.944,44 | R$ 694,44 | R$ 2.250,00 |
 | Casa (36ª) | R$ 2.725,69 | R$ 694,44 | R$ 2.031,25 |
 | Carro (1ª) |  R$ 2.248,55 | R$ 714,55 | R$ 1.520,00 |
 | Carro (24ª) |  R$ 2.248,55 | R$ 1.181,44 | R$ 1.053,11 |
-| Smartphone (1ª) | R$ 226,67 | R$ 108,87 | R$ 117,80 |
-| Smartphone (6ª) | R$ 226,67 | R$ 130,49 | R$ 96,18 |
+| Celular (1ª) | R$ 226,67 | R$ 108,87 | R$ 117,80 |
+| Celular (6ª) | R$ 226,67 | R$ 130,49 | R$ 96,18 |
 | Geladeira | R$ 150,00 | R$ 150,00 | R$ 0,00 |
 :::
 
----
+
+<br>
+
+
+::: {.fragment .callout-tip title="Observação Estratégica:"}
+Se pagarmos **R$ 3.638,88** por mês na casa (uma parcela de R$ 2.944,44 + uma amortização extra de R$ 694,44), quitamos o financiamento na **metade do tempo**!
+
+:::

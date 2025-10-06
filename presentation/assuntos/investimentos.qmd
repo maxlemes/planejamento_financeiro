@@ -1,0 +1,113 @@
+## Faça seu Dinheiro Trabalhar por Você. {#investimentos}
+
+::: {.h-center}
+![](imagens/investimentos.png){width="80%"}
+:::
+
+# {background-image="imagens/aposentadoria3.jpg" background-size="cover" background-color="rgba(0,0,0,0.5)"}
+
+::: columns
+::: {.column width="70%"}
+ 
+:::
+
+::: {.column width="30%" style="text-align: right; margin-left: auto;"}
+![](imagens/geracao_prateada.jpeg){width="100%"}
+:::
+:::
+
+---
+
+## Só invista naquilo que você conhece.
+
+<br>
+
+Antes de investir, pergunte:
+
+- **Liquidez** → posso resgatar rápido?
+- **Risco** → posso perder?
+- **Garantia** → tem FGC?
+- **Tributação** → paga imposto?
+- **Prazo** → curto, médio ou longo?
+- **Volatilidade** → oscila muito?
+- **Objetivo** → reserva, renda, crescimento?
+
+---
+
+### [Investimentos por ordem de complexidade]{.blue}
+
+
+::: {.no-bullets-level-1 style="font-size: 0.7em;"}
+
+- ### 1. Poupança  
+  * Rendimento mensal. 
+  * Liquidez imediata.
+  * Livre de Imposto.
+
+- ### 2. CDB  
+  * Rendimento diário.
+  * Impostos recolhido na fonte.
+  * Garantia do FGC.
+
+- ### 3. LCI e LCA  
+  * Isentos de Impostos. 
+  * Prazo definido
+  * Retenção do capital.
+  * Garantia do FGC.
+:::
+
+---
+
+### [Investimentos por ordem de complexidade]{.blue}
+
+
+::: {.no-bullets-level-1 style="font-size: 0.7em;"}
+
+- ### 4. Tesouro Direto  
+  * Prazo definido
+  * Impostos recolhido na fonte.
+  * Garantia do Governo Federal.
+  * Existem 3 modalidades, Préfixado, Selic ou o IPCA (inflação).
+  * O Préfixado e o IPCA podem gerar perdas.
+
+- ### 6. Fundos de Investimento em Infraestrutura (FI-Infra)  
+  * Rendimentos isentos de IR para pessoa física.  
+  * Ganho de capital também isento.  
+  * Projetos de infraestrutura (energia, logística, saneamento).  
+
+
+- ### 5. Fundos Imobiliários (FIIs)  
+  * Rendimentos mensais isentos de IR.
+  * 20% de Imposto sobre de ganho de capital.
+  * Imposto sob responsabilidade do investidor.
+  * Existem fundos de tijolo e fundos de papel.
+  
+:::
+
+---
+
+### [Investimentos por ordem de complexidade]{.blue}
+
+
+::: {.no-bullets-level-1 style="font-size: 0.7em;"}
+
+- ### 7. Ações  
+  * Participação em empresas listadas na Bolsa.  
+  * Ganha na distribuição dos lucros e/ou na valorização das ações.  
+  * Possibilidade de dividendos.  
+  * 15% de IR sobre ganho de capital (isento até R$ 20 mil em vendas/mês).  
+  * Imposto sob responsabilidade do investidor.
+  * Alta volatilidade
+
+- ### 8. Previdência Privada  
+  * Planejamento de longo prazo (acima de 10 anos).  
+  * Possibilidade de benefício fiscal (PGBL dedutível até 12% da renda bruta).  
+  * Dois regimes de tributação: progressivo ou regressivo.  
+  * Resgate pode gerar grandes prejuízos no curto prazo.  
+
+- ### 9. Fundos Multimercados  
+  * Estratégias diversificadas (renda fixa, ações, câmbio etc.).  
+  * Permitem gestão ativa.  
+  * Tributação: tabela regressiva de IR.  
+  * Nível de risco varia conforme a estratégia do fundo.  
+::::

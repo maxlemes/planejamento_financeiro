@@ -36,7 +36,7 @@
 
 ::: {.no-bullets-level-2}
 - **Estabeleça metas concretas:** 
-  - {{< fa piggy-bank >}} Meta: guardar R$ 1.000 por mês
-  - {{< fa globe-europe >}} Objetivo: viajar para a Europa 
-  - {{< fa calendar-alt >}} Prazo: 36 meses.
+  - {{< fa piggy-bank >}} Meta: guardar R$ 1.000 por mês.
+  - {{< fa umbrella-beach >}} Objetivo: viajar para praia.
+  - {{< fa calendar-alt >}} Prazo: 8 meses.
 :::

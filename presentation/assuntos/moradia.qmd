@@ -1,0 +1,137 @@
+## Aluguel vs. Financiamento Imobiliário.  {#moradia}
+
+::: {.no-bullets-level-1 style="font-size: 0.8em;"}
+
+- **Vantagens de Alugar um Imóvel:**
+
+  - Flexibilidade, 
+  - Custo Inicial Baixo, 
+  - Custos de Manutenção Reduzidos, 
+ 
+- **Desvantagens de Alugar um Imóvel:**
+
+  - Incerteza e Instabilidade, 
+  - Falta de Autonomia, 
+  - Valores crescentes.
+
+:::
+
+---
+
+## Aluguel vs. Financiamento Imobiliário
+
+::: {.no-bullets-level-1 style="font-size: 0.8em;"}
+
+- **Vantagens do Financiamento:**
+
+  - Criação de Patrimônio, 
+  - Segurança e Estabilidade, 
+  - Potencial de Valorização, 
+  - Parcelas decrescentes.
+
+- **Os Riscos do Financiamento:**
+
+  - Alto Custo, 
+  - Custos Adicionais, 
+  - Risco de Perda do Imóvel, 
+  - Risco de Inviabilidade.
+
+:::
+
+---
+
+## Analisando um Financiamento
+
+**Quando o Financiamento vale a pena.**
+
+::: {style="font-size: 0.8em;"}
+
+* **Taxa de juros baixa:** Os juros devem ser no máximo o valor do aluguel.
+* **Correção do Saldo Devedor:** Fuja de IPCA ou IGPM, prefira TR.
+* **Evitar a inadimplência:** Em hipótese alguma ficar inadimplente.
+* **Pagar o mais rápido que puder:** Tente antecipar as parcelas.
+:::
+
+---
+
+## Simulação SACRE: Premissas
+
+**Premissas do Cálculo**
+
+::: {style="font-size: 0.8em;"}
+
+* **Valor do imóvel:** R$450.000,00
+* **Entrada:** R$90.000,00 (20%)
+* **Valor Financiado:** R$360.000,00
+* **Prazo:** 30 anos (360 meses)
+* **Taxa de Juros:** 10% a.a. (≈ 0,7974% ao mês)
+* **Taxa de Administração:** 1% a.a. (≈ 0,0829% ao mês)
+:::
+
+---
+
+## Simulação SACRE: Com juros de 10% a.a.
+
+**Cálculo da Parcela:** Amortização + Juros + Taxa de Administração
+
+::: {style="font-size: 0.8em;"}
+
+* **Amortização:** R$360.000,00 / 360 meses = R$1.000,00
+* **Juros (1º mês):** R$360.000,00 x 0,7974% = R$2.870,64
+* **Taxa Adm. (1º mês):** R$360.000,00 x 0,0829% = R$298,44
+* **Prestação 1º ano:** R$1.000,00 + R$2.870,64 + R$298,44 = **R$4.169,08**
+:::
+
+<br>
+
+* A parcela de **R$4.169,08** ficará fixa nos próximos 12 meses.
+
+---
+
+## Simulação SACRE: Com juros de 10% a.a.
+
+::: {style="font-size: 0.8em;"}
+
+* **Despesas do Financiamento:** **R$3.169,08**
+* **Aluguel Estimado:** **R$2.500,00**
+* **80% do Aluguel Estimado:** **R$2.000,00**
+* **Diferença (mensal):** **R$1.169,08** (+ 58,45%)
+:::
+
+<br>
+
+::: {.fragment .callout-tip title="Sugestão:"}
+Aluga o imóvel por **R$2.500,00** e investe a diferença entre a prestação sugerida e o aluguel, R$4.169,08 - R$2.500,00 = **R$1.669,08**, até que a taxa de juros fique viável.
+
+:::
+
+---
+
+## Simulação SACRE: Com juros de 5% a.a.
+
+**Cálculo da Parcela:** Amortização + Juros + Taxa de Administração
+
+::: {style="font-size: 0.8em;"}
+
+* **Amortização:** R$360.000,00 / 360 meses = R$1.000,00
+* **Juros (1º mês):** R$360.000,00 x 0,4074% = R$1.466,64
+* **Taxa Adm. (1º mês):** R$360.000,00 x 0,0829% = R$298,44
+* **Prestação 1º ano:** R$1.000,00 + R$1.466,64 + R$298,44 = **R$2.765,08**
+:::
+<br>
+
+* A parcela de **R$2.765,08** ficará fixa nos próximos 12 meses.
+
+---
+
+## Simulação SACRE: Com juros de 5% a.a.
+
+::: {style="font-size: 0.8em;"}
+
+* **Despesas do Financiamento:** **R$1.765,08**
+* **Aluguel Estimado:** **R$2.500,00**
+* **80% do Aluguel Estimado:** **R$2.000,00**
+* **Diferença (mensal):** **-R$234,92** (-11,74%)
+:::
+
+---

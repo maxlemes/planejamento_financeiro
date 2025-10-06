@@ -96,3 +96,4 @@ $cor-marrom: #8B4513;
 .highlight-row tbody tr.current-fragment {
   opacity: 1; /* A linha ATUAL (em foco) fica totalmente visível */
 }
+

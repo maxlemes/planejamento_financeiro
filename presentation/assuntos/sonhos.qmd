@@ -1,0 +1,110 @@
+## Planejamento para compras de alto valor. {#sonhos}
+
+::: {.h-center}
+![](imagens/comparativo.png){width="70%"}
+:::
+
+---
+
+
+## Exemplo Prático: A Compra de um Carro
+
+::: {.no-bullets-level-1 style="font-size: 0.8em;"}
+
+- **Patrimônio Inicial:** R$120.000,00
+
+  - **Cenário 1:** Gasta R$100.000,00 na compra de um carro e investe o restante.
+  - **Cenário 2:** Gasta R$60.000,00 na compra de um carro e investe o restante.
+  - **Cenário 3:** Não compra o carro e investe os R$120.000,00.
+
+- **Premissas:**
+
+  - Desvalorização do carro: 10% ao ano.
+  - Custo de Oportunidade: 12% ao ano (quanto o dinheiro rende se for investido).
+
+:::
+
+---
+
+## Analisando o Cenário 1
+
+::: {.no-bullets-level-1 style="font-size: 0.8em;"}
+
+- **Decisão: Comprar carro de R$100 mil e investir R$20 mil**
+
+    - **Patrimônio Inicial:** R$ 120.000,00
+    - **Carro (depreciação de 10% a.a.):** R$ 100.000,00
+    - **Saldo Investido (rendimento de 12% a.a.):** R$ 20.000,00
+      
+      ::: {style="font-size: 0.7em;"}
+
+      <br>
+
+      | Ano  | Valor do Carro | Valor Investido | Patrimônio Total       | % |
+      | :--- | -------------: | --------------: | ----------------: | ------: |
+      | **0** | R$ 100.000,00  | R$ 20.000,00    | R$ 120.000,00 |                     |
+      | **1** | R$ 90.000,00   | R$ 22.400,00    | R$ 112.400,00 | [-6,33%]{.red}      |
+      | **2** | R$ 81.000,00   | R$ 25.088,00    | R$ 106.088,00 | [-5,62%]{.red}      |
+      | **3** | R$ 72.900,00   | R$ 28.098,56    | R$ 100.998,56 | [-4,80%]{.red}      |
+      | **4** | R$ 65.610,00   | R$ 31.470,39    | R$ 97.080,39  | [-3,88%]{.red}      |
+      | **5** | R$ 59.049,00   | R$ 35.246,83    | R$ 94.295,83  | [-2,87%]{.red}      |
+      :::
+:::
+
+---
+
+## Analisando o Cenário 2
+
+::: {.no-bullets-level-1 style="font-size: 0.8em;"}
+
+- **Decisão: Comprar carro de R$60.000,00 e investir R$60.000,00**
+
+    - **Patrimônio Inicial:** R$ 120.000,00
+    - **Carro (depreciação de 10% a.a.):** R$ 60.000,00
+    - **Saldo Investido (rendimento de 12% a.a.):** R$ 60.000,00
+      
+      ::: {style="font-size: 0.7em;"}
+      
+      <br>
+
+      | Ano  | Valor do Carro | Valor Investido | Patrimônio Total       | % |
+      | :--- | -------------: | --------------: | ---------------: | --: |
+      | **0** | R$ 60.000,00   | R$ 60.000,00    | R$ 120.000,00          |     |
+      | **1** | R$ 54.000,00   | R$ 67.200,00    | R$ 121.200,00 | [+1,00%]{.green} |
+      | **2** | R$ 48.600,00   | R$ 75.264,00    | R$ 123.864,00 | [+2,20%]{.green} |
+      | **3** | R$ 43.740,00   | R$ 84.295,68    | R$ 128.035,68 | [+3,37%]{.green} |
+      | **4** | R$ 39.366,00   | R$ 94.411,16    | R$ 133.777,16 | [+4,48%]{.green} |
+      | **5** | R$ 35.429,40   | R$ 105.740,50   | R$ 141.169,90 | [+5,53%]{.green} |
+      :::
+:::
+
+---
+
+## Patrimônio Ano a Ano nos 3 Cenários
+
+::: {style="font-size: 0.75em;"}
+| Ano  | Cenário 1     | Cenário 2     | Cenário 3     |
+| :--- | ------------: | ------------: | -------------: |
+| **0** | R$ 120.000,00 | R$ 120.000,00 | R$ 120.000,00 |
+| **1** | R$ 112.400,00 | R$ 121.200,00 | R$ 134.400,00 |
+| **2** | R$ 106.088,00 | R$ 123.864,00 | R$ 150.528,00 |
+| **3** | R$ 100.998,56 | R$ 128.035,68 | R$ 168.591,36 |
+| **4** | R$ 97.080,39  | R$ 133.777,16 | R$ 188.822,32 |
+| **5** | R$ 94.295,83  | R$ 141.169,90 | R$ 211.481,00 |
+:::
+
+---
+
+## Retorno Final após 5 anos
+
+**Patrimônio Inicial:** R$ 120.000,00
+
+<br>
+
+::: {style="font-size: 0.75em;"}
+| Cenário | Patrimônio Final | Retorno Financeiro | Retorno Percentual |
+| :--- | :---: | :---: | :---: |
+| **Cenário 1** | R$ 94.295,83  | -R$ 25.704,17 | [-21,42%]{.red}   |
+| **Cenário 2** | R$ 141.169,90 | +R$ 21.169,90 | [+17,64%]{.green} |
+| **Cenário 3** | R$ 211.481,00 | +R$ 91.481,00 | [+76,23%]{.green} |
+:::

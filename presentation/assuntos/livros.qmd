@@ -1,0 +1,64 @@
+
+## Boas leituras {#livros .center .vertical-align-top}
+
+:::: {.columns .v-center}
+
+::: {.column .fragment width="31%"}
+![](imagens/psicologia.jpg)
+:::
+
+::: {.column .fragment width="32%"}
+![](imagens/casais.jpg)
+:::
+
+::: {.column .fragment width="33%"}
+![](imagens/pai_rico.jpg)
+:::
+
+::::
+
+---
+
+## Boas leituras {.center}
+
+:::: {.columns .v-center}
+
+::: {.column .fragment width="32%"}
+![](imagens/logica_consumo.jpg)
+:::
+
+::: {.column .fragment width="33%"}
+![](imagens/vida_simples.jpg)
+:::
+
+::: {.column .fragment width="31%"}
+![](imagens/babilonia.jpg)
+:::
+
+::::
+
+---
+
+## Boas leituras {.center}
+
+:::: {.columns .v-center .h-center}
+
+::: {.column width="33%"}
+![](imagens/psicologia.jpg){width=73%}
+
+![](imagens/logica_consumo.jpg){width=72%}
+:::
+
+::: {.column width="33%"}
+![](imagens/casais.jpg){width=74%}
+
+![](imagens/vida_simples.jpg){width=75%}
+:::
+
+::: {.column width="33%"}
+![](imagens/pai_rico.jpg){width=75%}
+
+![](imagens/babilonia.jpg){width=71%}
+:::
+
+:::: 

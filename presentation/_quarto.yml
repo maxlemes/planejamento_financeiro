@@ -16,11 +16,12 @@ format:
   revealjs:
     # Aparência e tema
     theme: [solarized, style.css] # Aplica o tema 'solarized' e depois seu CSS customizado por cima. Perfeito!
+    vertical-align: top
 
     # Comportamento dos slides
     slide-level: 2         # Cria um novo slide para cada título de nível 2 (##)
     slide-number: true     # Mostra o número dos slides
-    incremental: true       # Permite pausas com '...' ou '.fragment'
+    incremental: true      # Permite pausas com '...' ou '.fragment'
     
     # Opções de saída do arquivo
     embed-resources: true  # Cria um único arquivo HTML autossuficiente (ótimo para compartilhar)

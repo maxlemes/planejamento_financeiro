@@ -1,25 +1,27 @@
 ---
 title: "Planejamento Financeiro para Aposentadoria"
 subtitle: "Assuma o controle do seu dinheiro e planeje uma aposentadoria tranquila"
-institute: "Universidade de Goiás"
+institute: "Universidade Federal de Goiás"
 author: Max Valério Lemes
-# format:
-#   metropolis-revealjs: default
 
 header: Planejamento Financeiro para Aposentadoria
 header-logo: imagens/ufglogo.png
 logo: imagens/ufglogo.png
 footer: '[Sumário](#sumario){.footer-fixed-link}'
 
-preview:
-  browser: msedge
 ---
+{{< include assuntos/capa.qmd >}}
 {{< include assuntos/sumario.qmd >}}
-{{< include assuntos/objetivos.qmd >}}
-{{< include assuntos/por_onde_comecar.qmd >}}
+{{< include assuntos/fundamentos.qmd >}}
+{{< include assuntos/educacao.qmd >}}
+{{< include assuntos/comeco.qmd >}}
 {{< include assuntos/motivacao.qmd >}}
 {{< include assuntos/mao_na_massa.qmd >}}
 {{< include assuntos/diagnostico.qmd >}}
-<!-- {{< include assuntos/o_que_evitar.qmd >}} -->
-<!-- {{< include assuntos/como_fazer.qmd >}} -->
 {{< include assuntos/dividas.qmd >}}
+{{< include assuntos/poupar.qmd >}}
+{{< include assuntos/reserva.qmd >}}
+{{< include assuntos/sonhos.qmd >}}
+{{< include assuntos/moradia.qmd >}}
+{{< include assuntos/investimentos.qmd >}}
+{{< include assuntos/livros.qmd >}}

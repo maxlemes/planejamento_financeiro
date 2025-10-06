@@ -1,0 +1,32 @@
+
+# Os inimigos da tranquilidade financeira {#educacao}
+
+## Maus hábitos financeiros
+
+#### [{{< fa sign-out-alt >}} O Hábito do Saldo Zero]{.orange}
+- **Hábito:** Gastar 100% da sua renda todo mês.
+- **Consequência:** Viver sem nenhuma margem para erros ou oportunidades. Qualquer imprevisto se torna uma crise.
+
+---
+
+## Maus hábitos financeiros
+
+#### [{{< fa exclamation-triangle >}} A Corda Bamba Financeira]{.purple}
+  - **Hábito:** Não ter uma reserva de emergência: "*se algo acontecer, na hora eu resolvo*".
+  - **Consequência:** Pequenos imprevistos se transformam em dívidas caras, e a ansiedade financeira tira a sua liberdade de escolha.
+
+---
+
+## Maus hábitos financeiros
+
+#### [{{< fa credit-card >}} O Impulso no Crédito]{.brown}
+- **Hábito:** Usar o crédito para comprar bens de consumo.
+- **Consequência:** Você paga mais caro por um prazer temporário que perde valor rapidamente, sacrificando objetivos maiores.
+
+---
+
+## Maus hábitos financeiros
+
+#### [{{< fa calendar-times >}} A Prisão das Prestações]{.red}
+- **Hábito:** Acumular parcelamentos e financiamentos em excesso.
+- **Consequência:** trabalhar para pagar o passado em vez de construir o futuro perdendo a liberdade de escolha.

@@ -23,7 +23,7 @@
 ## Como sua família gasta o dinheiro?
 
 ::: {.h-center}
-![](imagens/sankeymatic.svg){width="100%"} 
+![](imagens/sankeymatic2.svg){width="100%"} 
 :::
 
 ---
@@ -31,11 +31,11 @@
 ## Analise
 
 ::: {.no-bullets-level-1}
-- **Dívidas:** Qual o montante das suas dívidas? 
-   - Quanto elas impactam seu custo mensal?
 - **Balanço:** Você gasta mais ou menos do que ganha?
   - Quanto você consegue poupar por mês?
   - Quanto falta no final do mês?
+- **Dívidas:** Qual o montante das suas dívidas? 
+   - Quanto elas impactam seu custo mensal?
 - **Alinhamento:** Seus gastos atuais te aproximam ou te afastam dos seus objetivos?
   - Os valores gastos estão próximos dos valores planejados?
 :::
